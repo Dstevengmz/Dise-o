@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pl {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    text-align: center;
+    flex: 1; 
+}
+
+.pl.featured {
+    background-color: #343a40; 
+    color: #fff;
+}
+
+.precio {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.pl ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pl button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pl.featured button {
+    background-color: #fff;
+    color: #343a40;
+}

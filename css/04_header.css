@@ -1,0 +1,48 @@
+.menu{
+
+  margin-left: 60%;
+}
+header {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2C3E50;
+}
+.top-bar{
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+}
+.menu a {
+  padding-left: 20px;
+}
+.bottom-bar{
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  background-color:#ECF0F1;
+  margin-top: 20px;
+}
+span{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: arial;
+}
+.bottom-bar input{
+  
+  min-width:300px;
+  min-height: 25px;
+}
+.btn_login{
+  color: black;
+  background-color: #BDC3C7;
+  min-width:80px;
+  min-height: 30px;
+}
+.btn_sugnup{
+  color: white;
+  background-color: #3498DB;
+  min-width:80px;
+  min-height: 30px;
+}
